@@ -12,6 +12,7 @@ const config = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].min.js',
+        publicPath: '/',
         sourceMapFilename: '[name].map'
     },
     module: {
